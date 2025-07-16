@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "title": "Welcome to Skillseed"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to our learning platform!",
+    "description": "We are committed to supporting education through technology."
+  }
+}
