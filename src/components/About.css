@@ -1,0 +1,42 @@
+.about-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 280px;
+  transition: transform 0.3s ease, background-color 0.3s, color 0.3s;
+}
+
+.card h3,
+.card p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #ecf0f1;
+}
+
+/* Hover Styles */
+.card:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.card:hover h3,
+.card:hover p {
+  color: black;
+}

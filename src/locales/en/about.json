@@ -1,6 +1,15 @@
 {
   "title": "About Us",
-  "description": "Skillseed is a platform dedicated to empowering learners with multilingual content and global collaboration opportunities.",
-  "vision": "Our vision is to make education more inclusive and accessible through technology.",
-  "team": "We are a passionate team of developers, educators, and creators."
+  "who": {
+    "title": "Who We Are",
+    "description": "We are a team committed to empowering learners through technology and accessible education."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To spark confidence, creativity, and curiosity in every child by giving them the tools, exposure, and inspiration to dream boldly and learn with purpose."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "A future where every child grows up feeling seen, supported, and excited about who they are becoming and parents are right there beside them on the journey."
+  }
 }

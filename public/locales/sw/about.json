@@ -1,6 +1,15 @@
 {
   "title": "Kuhusu Sisi",
-  "description": "Skillseed ni jukwaa linalolenga kuwawezesha wanafunzi kwa maudhui ya lugha nyingi na fursa za ushirikiano wa kimataifa.",
-  "vision": "Maono yetu ni kufanya elimu iwe jumuishi na kupatikana kupitia teknolojia.",
-  "team": "Sisi ni timu ya wajasiriamali, walimu, na wabunifu wenye shauku."
+  "whoWeAre": {
+    "title": "Sisi ni Nani",
+    "description": "Sisi ni timu ya walimu na watengenezaji wa programu wenye shauku, tukilenga kubadilisha uzoefu wa kujifunza kwa watoto kupitia majukwaa ya kidijitali ya kuvutia."
+  },
+  "mission": {
+    "title": "Dhamira",
+    "description": "Kukuza ujasiri, ubunifu, na hamu ya kujifunza kwa kila mtoto kwa kuwapa zana, maarifa, na msukumo wa kuota ndoto kubwa na kujifunza kwa lengo."
+  },
+  "vision": {
+    "title": "Maono",
+    "description": "Mustakabali ambapo kila mtoto anakua akihisi kutambuliwa, kuungwa mkono, na kusisimka kuhusu wanavyokuwa, na wazazi wakiwa bega kwa bega nao katika safari hiyo."
+  }
 }

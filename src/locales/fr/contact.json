@@ -1,6 +1,15 @@
 {
   "title": "Contactez-nous",
-  "email": "Envoyez-nous un email à support@skillseed.com",
-  "phone": "Appelez-nous au +250 123 456 789",
-  "address": "Retrouvez-nous à Kigali, Rwanda"
+  "email": "Email : contact@skillseed.org",
+  "phone": "Téléphone : +250 789 123 456",
+  "address": "Adresse : Kigali, Rwanda",
+  "form": {
+    "name": "Votre nom",
+    "namePlaceholder": "Entrez votre nom",
+    "email": "Votre email",
+    "emailPlaceholder": "Entrez votre email",
+    "message": "Message",
+    "messagePlaceholder": "Écrivez votre message ici...",
+    "submit": "Envoyer le message"
+  }
 }

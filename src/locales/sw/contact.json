@@ -1,6 +1,15 @@
 {
   "title": "Wasiliana Nasi",
-  "email": "Tutumie barua pepe kwa support@skillseed.com",
-  "phone": "Piga simu +250 123 456 789",
-  "address": "Tupo Kigali, Rwanda"
+  "email": "Barua pepe: contact@skillseed.org",
+  "phone": "Simu: +250 789 123 456",
+  "address": "Anwani: Kigali, Rwanda",
+  "form": {
+    "name": "Jina lako",
+    "namePlaceholder": "Andika jina lako",
+    "email": "Barua pepe yako",
+    "emailPlaceholder": "Andika barua pepe yako",
+    "message": "Ujumbe",
+    "messagePlaceholder": "Andika ujumbe wako hapa...",
+    "submit": "Tuma Ujumbe"
+  }
 }

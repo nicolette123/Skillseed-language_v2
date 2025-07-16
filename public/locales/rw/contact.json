@@ -1,6 +1,15 @@
 {
   "title": "Twandikire",
-  "email": "Twandikire kuri support@skillseed.com",
-  "phone": "Hamagara +250 123 456 789",
-  "address": "Duhamagare i Kigali, Rwanda"
+  "email": "Imeli: contact@skillseed.org",
+  "phone": "Telefoni: +250 789 123 456",
+  "address": "Aderesi: Kigali, Rwanda",
+  "form": {
+    "name": "Izina ryawe",
+    "namePlaceholder": "Andika izina ryawe",
+    "email": "Imeli yawe",
+    "emailPlaceholder": "Andika imeli yawe",
+    "message": "Ubutumwa",
+    "messagePlaceholder": "Andika ubutumwa bwawe hano...",
+    "submit": "Ohereza Ubutumwa"
+  }
 }

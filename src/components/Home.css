@@ -1,0 +1,107 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-text {
+  flex: 1;
+  padding: 3rem;
+  background-color: #40566f;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: slideInText 1s ease-in-out;
+}
+
+.home-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.home-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.home-image {
+  flex: 1;
+  background-image: url('/kids-learning.jpg'); 
+  background-size: cover;
+  background-position: center;
+  animation: fadeInImage 2s ease-in-out;
+  width: 70px;
+  height: 150px;
+}
+
+@keyframes slideInText {
+  from {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInImage {
+  from {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.get-started-btn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.get-started-btn:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+  }
+
+  .home-text, .home-image {
+    flex: unset;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .home-text {
+    padding: 2rem;
+  }
+
+  .home-text h2 {
+    font-size: 2rem;
+  }
+
+  .home-text p {
+    font-size: 1rem;
+  }
+}
